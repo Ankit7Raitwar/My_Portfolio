@@ -1,26 +1,9 @@
-import HeroImg from "@/assets/images/hero4.png";
+import HeroImg from "@/assets/images/ankit-raitwar.jpeg";
 import OlovaLogo from "@/assets/images/olova.png";
-import { Helmet } from "react-helmet";
 
 export default function About() {
   return (
     <>
-<Helmet>
-        <title>Ankit Raitwar</title>
-        <meta
-          name="description"
-          content="Welcome to My Website. Explore amazing features, services, and tutorials."
-        />
-        <meta
-          name="keywords"
-          content="React, SEO, React Helmet, Web Development, Tutorials"
-        />
-        <meta property="og:title" content="Home | My Website" />
-        <meta property="og:description" content="Explore amazing features and tutorials on My Website." />
-        <meta property="og:type" content="website" />
-      </Helmet>
-
-
       <section id="about" className="py-16 md:py-32  text-white bg-[#04081A]">
         <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
@@ -43,7 +26,7 @@ export default function About() {
             <div className="relative space-y-4">
               <p className="text-white">
                 Hi, I'm Ankit Raitwar – a passionate JavaScript developer with
-                1.3+ years of hands-on experience building dynamic,
+                2.5+ years of hands-on experience building dynamic,
                 user-friendly web interfaces. I specialize in React and modern
                 JS frameworks, focusing on delivering clean, efficient, and
                 scalable frontend solutions.{" "}

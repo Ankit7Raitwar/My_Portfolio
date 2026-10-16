@@ -37,7 +37,6 @@ import { TbBrandVscode,TbBrandReactNative } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
 import { MdAnimation } from "react-icons/md";
 import { FcWorkflow } from "react-icons/fc";
-import { Helmet } from "react-helmet";
 
 const SkillCard = ({ icon: Icon, title, skills, color }) => (
   <Card className="group relative overflow-hidden bg-gray-900/80 border-gray-700 hover:scale-[1.02] transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20">
@@ -228,20 +227,6 @@ const SkillsSection = () => {
 
   return (
     <>
-    <Helmet>
-        <title>Ankit Raitwar</title>
-        <meta
-          name="description"
-          content="Welcome to My Website. Explore amazing features, services, and tutorials."
-        />
-        <meta
-          name="keywords"
-          content="React, SEO, React Helmet, Web Development, Tutorials"
-        />
-        <meta property="og:title" content="Home | My Website" />
-        <meta property="og:description" content="Explore amazing features and tutorials on My Website." />
-        <meta property="og:type" content="website" />
-      </Helmet>
   
     <main className="pt-15 lg:pt-0 text-white min-h-screen bg-[#04081A] relative">
       {/* Grid Background */}

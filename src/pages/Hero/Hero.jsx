@@ -7,7 +7,6 @@ import PortfolioPage from "@/pages/About/About";
 import SparklesText from "@/components/ui/sparkles-text";
 import { FlipWords } from "@/components/ui/flip-words";
 import myRusume from "../../assets/images/Ankit_Raitwar.pdf"
-import { Helmet } from "react-helmet";
 
 // Grid Background - Replacing the HexagonBackground
 const GridBackground = () => {
@@ -53,17 +52,17 @@ export default function Hero() {
   const [code] = useState(`
 const profile = {
     name: 'Ankit Raitwar',
-    title: 'Front-End Developer | UI Framework Creator | Full-Stack in Progress',
+    title: 'Full Stack Developer — React.js — Node.js — TypeScript',
     skills: [
-        'React', 'React-Native', 'Next.js', 'Redux',
+        'React', 'Next.js', 'Redux',
     'Node.js', 'Express', 'MongoDB', 'MySQL',
-    'TypeScript', 'Git', 'Linux', 'REST APIs',
+    'TypeScript', 'Git', 'Php','Wordpress', 'REST APIs',
     'UI/UX Design', 'Open Source', 'Frontend Architecture'
     ],
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
-    yearsOfExperience: 1.3, 
+    yearsOfExperience: 2.5, 
     hireable: function() {
         return (
             this.hardWorker &&
@@ -145,20 +144,6 @@ const profile = {
   return (
     <>
 
-    <Helmet>
-        <title>Ankit Raitwar</title>
-        <meta
-          name="description"
-          content="Welcome to My Website. Explore amazing features, services, and tutorials."
-        />
-        <meta
-          name="keywords"
-          content="React, SEO, React Helmet, Web Development, Tutorials"
-        />
-        <meta property="og:title" content="Home | My Website" />
-        <meta property="og:description" content="Explore amazing features and tutorials on My Website." />
-        <meta property="og:type" content="website" />
-      </Helmet>
 
       
       <main className="bg-[#020617] text-white min-h-screen">

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://codervai.vercel.app/sitemap.xml
+Sitemap: https://my-portfolio-three-henna-14.vercel.app/sitemap.xml
